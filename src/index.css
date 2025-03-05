@@ -6484,7 +6484,7 @@ a.text-darker:focus {
 }
 
 .text-muted {
-  color: #8898aa !important;
+  color: white !important;
 }
 
 .text-black-50 {
@@ -14008,6 +14008,11 @@ button:focus,
 
 .table .badge i {
   margin-right: 10px;
+}
+
+.centered-badge {
+  margin: 0;
+  padding: 0.3rem 0.6rem; /* Adjust as needed */
 }
 
 /*# sourceMappingURL=argon-dashboard-react.css.map */

@@ -11,12 +11,13 @@ const DashFooter = () => {
             <Container>
               <Row className="align-items-center justify-content-xl-between">
                 <Col xl="6">
-                  <div className="copyright text-center text-xl-left text-muted">
+                  <div className="copyright text-center text-xl-left" style={{color: "white"}}>
                     © {new Date().getFullYear()}{" "}
                     <a
                       className="font-weight-bold ml-1"
                       href="https://www.creative-tim.com?ref=adr-auth-footer"
                       target="_blank"
+                      style={{color: "white"}}
                     >
                       Creative Tim
                     </a>
@@ -28,6 +29,7 @@ const DashFooter = () => {
                       <NavLink
                         href="https://www.creative-tim.com?ref=adr-auth-footer"
                         target="_blank"
+                        style={{color: "white"}}
                       >
                         Creative Tim
                       </NavLink>
@@ -36,6 +38,7 @@ const DashFooter = () => {
                       <NavLink
                         href="https://www.creative-tim.com/presentation?ref=adr-auth-footer"
                         target="_blank"
+                        style={{color: "white"}}
                       >
                         About Us
                       </NavLink>
@@ -44,6 +47,7 @@ const DashFooter = () => {
                       <NavLink
                         href="http://blog.creative-tim.com?ref=adr-auth-footer"
                         target="_blank"
+                        style={{color: "white"}}
                       >
                         Blog
                       </NavLink>
@@ -52,6 +56,7 @@ const DashFooter = () => {
                       <NavLink
                         href="https://github.com/creativetimofficial/argon-dashboard/blob/master/LICENSE.md?ref=adr-auth-footer"
                         target="_blank"
+                        style={{color: "white"}}
                       >
                         MIT License
                       </NavLink>

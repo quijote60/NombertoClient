@@ -21,11 +21,18 @@ const Welcome = () => {
                   <Link to="/dash/properties" className="dash-card">
                       <h2>View Properties</h2>
                   </Link>
-                  
-                  
-
                   <Link to="/dash/residents" className="dash-card">
                       <h2>View Residents</h2>
+                  </Link>
+
+                  <Link to="/dash/users" className="dash-card">
+                      <h2>View Users</h2>
+                  </Link>
+                  <Link to="/dash/finetypes" className="dash-card">
+                      <h2>View Fine Types</h2>
+                  </Link>
+                  <Link to="/dash/expenses" className="dash-card">
+                      <h2>View Expenses</h2>
                   </Link>
 
                   
